@@ -20,6 +20,6 @@ app.get('/ping', (req, res) => {
     });
 });
 
-app.listen(6000, () => {
-    console.log('Server started on port 6000');
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
 });
